@@ -12,6 +12,10 @@ font-size: 14px;
 }
 
 /* Header & Footer */
+header {
+    background-color: #FFFFFF;
+}
+
 .logo {
     color: var(--color-logo);
     font-family: Raleway, sans-serif;
