@@ -2,17 +2,16 @@
     --color-text: #757575;
     --color-h2-h3: #212121;
     --color-focus: #2196F3;
-    --color-logo: #000000;
 }
 
 body {
     font-family: Roboto, sans-serif;
-color: var(--color-text);
-font-size: 14px; 
+    color: var(--color-text);
+    font-size: 14px; 
 }
 
 /* Header & Footer */
-header {
+.header {
     background-color: #FFFFFF;
 }
 
@@ -26,17 +25,19 @@ header {
     text-decoration: none;
 }
 
-.begin-logo {
-    color: var(--color-logo);
+.header-logo {
+    color: #000000;
 }
 
-.end-logo {
+.footer-logo {
     color: #FFFFFF;
 }
 
 .nav,
 .nav-auth,
-.ul-adress {
+.ul-adress,
+.feature-list,
+.team-list {
     list-style-type: none;
 }
 
@@ -67,9 +68,90 @@ text-decoration: none;
     color: var(--color-text);
 }
 
+/* body */
+
+.hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+
+.button-hero {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #FFFFFF;
+    background-color: var(--color-focus);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    background-color:#188CE8;
+    cursor: pointer;
+}
+
+.feature-h {
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-h2-h3);
+}
+
+.feature-text {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-h2-h3);
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+.team-decor {
+text-decoration: none;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-h2-h3);
+}
+
+.team-position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+}
+
+
 /* Only Footer */
 
-footer {
+.footer {
     background-color: #2F303A;
 }
 
