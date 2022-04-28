@@ -74,6 +74,11 @@ body {
 
 /* Body */
 
+.section-hero {
+    background-color: #2F303A;
+    text-align: center;
+}
+
 .hero {
     font-weight: 900;
     font-size: 44px;
@@ -82,19 +87,17 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    background-color: #2F303A;
+    
 }
 
 .button-hero {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     color: #FFFFFF;
-    text-align: center;
     letter-spacing: 0.06em;
     background-color: var(--color-focus);
-    display: flex;
-    align-items: center;
     cursor: pointer;
 }
 
@@ -103,7 +106,22 @@ body {
     background-color:#188CE8; 
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .feature-title {
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
